@@ -1,0 +1,143 @@
+:root {
+    --page-font: "Figtree", sans-serif;
+    --page-max-width: 1920px;
+    --content-max-width: 1440px;
+}
+
+h1 {
+    font-family: var(--page-font);
+    font-size: 67px;
+    text-align: center;
+}
+
+body {
+    background-color: #06171E;
+    max-width: var(--page-max-width);
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.site-header {
+        background-color: #09212A;
+        display: flex;
+        align-items: center;
+        height: 80px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    justify-content: center;
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    flex: 1;
+}
+
+.top-logo {
+    display: flex;
+    align-items: center;
+    padding-left: 80px; 
+}
+
+.site-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #09212A;
+    height: 150px;
+    color: #99ACB3;
+    gap: 12px;
+    font-size: 14px;
+}
+
+.thumbnail-button {
+    cursor:pointer;
+    background: none;
+    border: none;
+    padding: 0;   
+    transition: all 0.3s ease-in-out;      
+}
+
+.thumbnail {
+    width: 180px;
+    height: 180px;
+    border-spacing: 0;
+    border-radius: 32px;
+    margin-top: 20px;
+    cursor: pointer;
+    object-fit: cover;
+    padding: 18px;
+    align-items: center;
+
+
+}
+.thumbnail-button:hover {
+    transform: scale(1.1);
+}
+
+.photo-album {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 5px 0 5px;
+}
+
+.dialog {
+    display: none;
+    flex-direction: column;
+    padding:32px;
+    background-color: #09212A;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-family: var(--page-font);
+    width: 600px;
+}
+
+.dialog.opened {
+    display: flex;
+    display: block;
+}
+
+.dialog-img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+
+}
+h3 {
+    font-family: var(--page-font);
+    font-size: 16px;
+    text-align: center;
+}
+
+.single_element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.dialog-navigation {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.dialog button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.dialog-header {
+    display:flex;
+    justify-content:flex-end;
+}
+.dialog::backdrop {
+    background-color: rgba(0,0,0,0.6);
+}

@@ -1,0 +1,101 @@
+@media screen and (min-width: 500px) and (max-width: 950px) {
+    h1 {
+        font-size: 38px;
+        padding: 0 20px 0 20px;
+    }
+
+    .thumbnail {
+        height: 120px;
+        width: 120px;
+    }
+
+    .photo-album {
+        margin-bottom: 30px;
+    }
+
+    .dialog {
+        width: 420px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 670px) {
+
+    .top-logo {
+        padding: 40px;
+    }
+
+    .top-logo img {
+        height: auto;
+        width: 180px;
+    }
+
+    .dialog {
+        width: 320px;
+    }
+
+}
+
+@media screen and (max-width: 499px) {
+
+    h1 {
+        font-size: 32px;
+        padding: 0 17px 0 17px;
+    }
+
+    dialog h2 {
+        font-size: 22px;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .dialog h3 {
+        font-size: 16px;
+    }
+
+    .thumbnail {
+        height: 100px;
+        width: 100px;
+        padding: 10px;
+        border-radius: 22px;
+    }
+
+    .photo-album {
+        margin-bottom: 30px;
+    }
+
+    .site-header {
+        justify-content: center;
+    }
+
+    .top-logo {
+        padding: 40px;
+    }
+
+    .top-logo img {
+        height: auto;
+        width: 180px;
+    }
+
+    .dialog {
+        width: 75%;
+        padding: 20px 32px 20px 32px;
+    }
+    .dialog-navigation {
+            gap: 12px;
+    }
+
+    .dialog-navigation img {
+        height: 40px;
+        width: 40px;
+    }
+    .dialog-img {   
+        width: 240px;
+    }
+    .dialog-img-move-left {
+        transform: translateX(-200px);
+    }
+    .site-footer img {
+        height: 24px;
+        width: auto;
+    }
+}

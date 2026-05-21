@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotogram</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <script src="./JS/script.js"></script>
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="top-logo" href="#"><img src="./img/fotogram_logo.svg" alt="Fotogram logo"></a>
+    </header>
+    <main class="main-container" aria-labbledby="main-title">  
+        <header>
+            <h1 id="main-title">Your personal photo album</h1>
+        </header>
+
+        <section>
+           
+            <div class="photo-album">
+                <button aria-haspopup="dialog" aria-controls="photo-dialog" aria-label="Open dialog" class="thumbnail-button" onclick="openDialog(event); renderFiltered(0); setFocusToTop();">
+                    <img class="thumbnail"
+                        src="./img/dialog/500kb/1.jpg" alt="">
+                </button>
+                <button aria-haspopup="dialog" aria-controls="photo-dialog" aria-label="Open dialog" class="thumbnail-button" onclick="openDialog(event); renderFiltered(1);">
+                    <img class="thumbnail"
+                        src="./img/dialog/500kb/2.jpg" alt="">
+                </button>
+                <button aria-haspopup="dialog" aria-controls="photo-dialog" aria-label="Open dialog" class="thumbnail-button" onclick="openDialog(event); renderFiltered(2);">
+                    <img class="thumbnail"
+                        src="./img/dialog/500kb/3.jpg" alt="">
+                </button>
+                <button aria-haspopup="dialog" aria-controls="photo-dialog" aria-label="Open dialog" class="thumbnail-button" onclick="openDialog(event); renderFiltered(3);">
+                    <img class="thumbnail"
+                        src="./img/dialog/500kb/4.jpg" alt="">
+                </button>
+                <button aria-haspopup="dialog" aria-controls="photo-dialog" aria-label="Open dialog" class="thumbnail-button" onclick="openDialog(event); renderFiltered(4);">
+                    <img class="thumbnail"
+                        src="./img/dialog/500kb/5.jpg" alt="">
+                </button>
+                <button aria-haspopup="dialog" aria-controls="photo-dialog" aria-label="Open dialog" class="thumbnail-button" onclick="openDialog(event); renderFiltered(5);">
+                    <img class="thumbnail"
+                        src="./img/dialog/500kb/6.jpg" alt="">
+                </button>
+                <button aria-haspopup="dialog" aria-controls="photo-dialog" aria-label="Open dialog" class="thumbnail-button" onclick="openDialog(event); renderFiltered(6);">
+                    <img class="thumbnail"
+                        src="./img/dialog/500kb/7.jpg" alt="">
+                </button>
+                <button aria-haspopup="dialog" aria-controls="photo-dialog" aria-label="Open dialog" class="thumbnail-button" onclick="openDialog(event); renderFiltered(7);">
+                    <img class="thumbnail"
+                        src="./img/dialog/500kb/8.jpg" alt="">
+                </button>
+                <button aria-haspopup="dialog" aria-controls="photo-dialog" aria-label="Open dialog" class="thumbnail-button" onclick="openDialog(event); renderFiltered(8);">
+                    <img class="thumbnail"
+                        src="./img/dialog/500kb/9.jpg" alt="">
+                </button>
+                <button aria-haspopup="dialog" aria-controls="photo-dialog" aria-label="Open dialog" class="thumbnail-button" onclick="openDialog(event); renderFiltered(9);">
+                    <img class="thumbnail"
+                        src="./img/dialog/500kb/10.jpg" alt="">
+                </button>
+                <button aria-haspopup="dialog" aria-controls="photo-dialog" aria-label="Open dialog" class="thumbnail-button" onclick="openDialog(event); renderFiltered(10);">
+                    <img class="thumbnail"
+                        src="./img/dialog/500kb/11.jpg" alt="">
+                </button>
+                <button aria-haspopup="dialog" aria-controls="photo-dialog" aria-label="Open dialog" class="thumbnail-button" onclick="openDialog(event); renderFiltered(11);">
+                    <img class="thumbnail"
+                        src="./img/dialog/500kb/12.jpg" alt="">
+                </button>
+            </div>
+
+            <dialog onclick="closeDialog(event)" onclose="removeOpenedClass()" id="photo-dialog" class="dialog" aria-labelledby="dialog-image-title">
+                <div onclick="stopProp(event)">
+                    <header class="dialog-header">
+                        <button onclick="closeDialog(event)" aria-label="Close dialog">
+                            <img src="./img/close.svg" alt="close button">
+                        </button>
+                    </header>
+
+                    <section>
+                        <div id="content">
+                        </div>
+                    </section>
+                </div>
+            </dialog>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div>
+            <a href="https://developerakademie.com" target="_blank" rel="noopener noreferrer"><img
+                    src="./img/DA_Logo.svg" alt="Developer Akademie logo"></a>
+
+        </div>
+        <span>© 2023 Developer Akademie GmbH.</span>
+    </footer>
+    <script src="./JS/dom_manipulation.js"></script>
+</body>
+
+</html>

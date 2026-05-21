@@ -1,0 +1,14 @@
+Couldn't apply Content Credentials. (12)
+    C:\DEVELOPER AKADEMIE\Dev\modul-6-javascript\Fotogram\Fotogram Richard Alexander Loesener\img\dialog\11.jpg
+    C:\DEVELOPER AKADEMIE\Dev\modul-6-javascript\Fotogram\Fotogram Richard Alexander Loesener\img\dialog\9.jpg
+    C:\DEVELOPER AKADEMIE\Dev\modul-6-javascript\Fotogram\Fotogram Richard Alexander Loesener\img\dialog\10.jpg
+    C:\DEVELOPER AKADEMIE\Dev\modul-6-javascript\Fotogram\Fotogram Richard Alexander Loesener\img\dialog\1.jpg
+    C:\DEVELOPER AKADEMIE\Dev\modul-6-javascript\Fotogram\Fotogram Richard Alexander Loesener\img\dialog\12.jpg
+    C:\DEVELOPER AKADEMIE\Dev\modul-6-javascript\Fotogram\Fotogram Richard Alexander Loesener\img\dialog\8.jpg
+    C:\DEVELOPER AKADEMIE\Dev\modul-6-javascript\Fotogram\Fotogram Richard Alexander Loesener\img\dialog\4.jpg
+    C:\DEVELOPER AKADEMIE\Dev\modul-6-javascript\Fotogram\Fotogram Richard Alexander Loesener\img\dialog\5.jpg
+    C:\DEVELOPER AKADEMIE\Dev\modul-6-javascript\Fotogram\Fotogram Richard Alexander Loesener\img\dialog\6.jpg
+    C:\DEVELOPER AKADEMIE\Dev\modul-6-javascript\Fotogram\Fotogram Richard Alexander Loesener\img\dialog\7.jpg
+    C:\DEVELOPER AKADEMIE\Dev\modul-6-javascript\Fotogram\Fotogram Richard Alexander Loesener\img\dialog\2.jpg
+    C:\DEVELOPER AKADEMIE\Dev\modul-6-javascript\Fotogram\Fotogram Richard Alexander Loesener\img\dialog\3.jpg
+
