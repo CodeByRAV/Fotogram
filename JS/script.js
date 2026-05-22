@@ -49,9 +49,7 @@ let currentIndex = 0;
 let finalImg = myImg.length;
 
 
-function renderFiltered(index) {
-
-    currentIndex = index;
+function renderFiltered(currentIndex = index) {
     render()
 }
 
@@ -59,7 +57,6 @@ function renderFiltered(index) {
 function render() {
     let contentRef = document.getElementById('content');
     contentRef.innerHTML = getImgTemplate(currentIndex);
-    translateImgLeft()
 
 }
 
@@ -83,25 +80,6 @@ function previousImg() {
     render();
 }
 
-function translateImgLeft() {
-    const diaImgRef = document.querySelector("dialog-img");
-
-    if (!diaImgRef) return;
-
-    diaImgRef.classList.remove("dialog-img-move-left");
-    console.log("image:", diaImgRef);
-    console.log("index:", currentIndex);
-
-
-    if ([1, 5, 8].includes(currentIndex)) {
-        diaImgRef.classList.add("dialog-img-move-left");
-    }
-}
-
-function setFocusToTop() {
-    const elemRef = document.getElementById("main-title");
-    elemRef.focus();
-}
 
 function removeOpenedClass() {
     dialogRef.classList.remove("opened");
