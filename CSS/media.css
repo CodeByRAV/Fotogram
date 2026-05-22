@@ -91,9 +91,7 @@
     .dialog-img {   
         width: 240px;
     }
-    .dialog-img-move-left {
-        transform: translateX(-200px);
-    }
+    
     .site-footer img {
         height: 24px;
         width: auto;
