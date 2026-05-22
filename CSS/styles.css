@@ -134,7 +134,7 @@ h3 {
     cursor: pointer;
     border: none;
 }
-.dialog-header {
+.dialog-close-button {
     display:flex;
     justify-content:flex-end;
 }
