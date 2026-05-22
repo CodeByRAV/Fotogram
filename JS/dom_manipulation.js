@@ -17,9 +17,3 @@ function closeDialog(event) {
 function stopProp(event){
     event.stopPropagation()
 }
-    
-// function selectImg(index) {
-// 
-// const titleRef = document.getElementById("photo-details");
-// titleRef.textContent = `${currentTitles[currentIndex]}`
-// }
