@@ -1,3 +1,8 @@
+@media screen and (min-width: 951px) and (max-width: 1440px) {
+        .dialog-img {   
+        max-height: 400px;
+    }    
+}
 @media screen and (min-width: 500px) and (max-width: 950px) {
     h1 {
         font-size: 38px;
@@ -16,6 +21,9 @@
     .dialog {
         width: 420px;
     }
+            .dialog-img {   
+        max-height: 280px;
+    }    
 }
 
 @media screen and (min-width: 500px) and (max-width: 670px) {
@@ -31,6 +39,9 @@
 
     .dialog {
         width: 320px;
+    }
+        .dialog-img {   
+        max-height: 213px;
     }
 
 }
@@ -90,6 +101,7 @@
     }
     .dialog-img {   
         width: 240px;
+        max-height: 160px;
     }
     
     .site-footer img {
