@@ -49,7 +49,8 @@ let currentIndex = 0;
 let finalImg = myImg.length;
 
 
-function renderFiltered(currentIndex = index) {
+function renderFiltered(index) {
+    currentIndex = index;
     render()
 }
 
