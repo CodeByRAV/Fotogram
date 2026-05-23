@@ -14,4 +14,3 @@ function getImgTemplate(currentIndex) {
         </footer>
         </div>`;
 }
-

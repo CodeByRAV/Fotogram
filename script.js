@@ -13,8 +13,6 @@ let myImg = [
     "12.jpg",
 ]
 
-
-
 let currentTitles = [
     "Tunnel vision",
     "Superstar",
@@ -48,7 +46,6 @@ let myAlts = [
 let currentIndex = 0;
 let finalImg = myImg.length;
 
-
 function renderFiltered(index) {
     currentIndex = index;
     render()
@@ -80,7 +77,6 @@ function previousImg() {
     }
     render();
 }
-
 
 function removeOpenedClass() {
     dialogRef.classList.remove("opened");

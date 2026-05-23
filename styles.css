@@ -76,6 +76,7 @@ body {
 
 
 }
+
 .thumbnail-button:hover {
     transform: scale(1.1);
 }
@@ -110,6 +111,7 @@ body {
     border-radius: 15px;
 
 }
+
 h3 {
     font-family: var(--page-font);
     font-size: 16px;
@@ -134,10 +136,12 @@ h3 {
     cursor: pointer;
     border: none;
 }
+
 .dialog-close-button {
     display:flex;
     justify-content:flex-end;
 }
+
 .dialog::backdrop {
     background-color: rgba(0,0,0,0.6);
 }
