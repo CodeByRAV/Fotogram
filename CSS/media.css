@@ -83,10 +83,6 @@
         margin-bottom: 30px;
     }
 
-    .site-header {
-        justify-content: center;
-    }
-
     .top-logo {
         padding: 40px;
     }
@@ -118,5 +114,9 @@
     .site-footer img {
         height: 24px;
         width: auto;
+    }
+
+    .site-header-content {
+        justify-content: center;
     }
 }
