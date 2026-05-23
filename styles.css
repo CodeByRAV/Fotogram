@@ -12,7 +12,6 @@ h1 {
 
 body {
     background-color: #06171E;
-    max-width: var(--page-max-width);
     color: white;
     margin: 0 auto;
     display: flex;
@@ -21,10 +20,20 @@ body {
 }
 
 .site-header {
-        background-color: #09212A;
-        display: flex;
-        align-items: center;
-        height: 80px;
+    background-color: #09212A;
+    height: 80px;
+}
+
+.site-header-content {
+    max-width: var(--page-max-width);
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+main {
+    max-width: var(--content-max-width);
 }
 
 .main-container {
@@ -40,7 +49,7 @@ body {
 .top-logo {
     display: flex;
     align-items: center;
-    padding-left: 80px; 
+    padding-left: 80px;
 }
 
 .site-footer {
@@ -56,11 +65,11 @@ body {
 }
 
 .thumbnail-button {
-    cursor:pointer;
+    cursor: pointer;
     background: none;
     border: none;
-    padding: 0;   
-    transition: all 0.3s ease-in-out;      
+    padding: 0;
+    transition: all 0.3s ease-in-out;
 }
 
 .thumbnail {
@@ -91,7 +100,7 @@ body {
 .dialog {
     display: none;
     flex-direction: column;
-    padding:32px;
+    padding: 32px;
     background-color: #09212A;
     color: white;
     border: none;
@@ -138,10 +147,10 @@ h3 {
 }
 
 .dialog-close-button {
-    display:flex;
-    justify-content:flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .dialog::backdrop {
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0, 0, 0, 0.6);
 }
