@@ -51,7 +51,6 @@ function renderFiltered(index) {
     render()
 }
 
-
 function render() {
     let contentRef = document.getElementById('content');
     contentRef.innerHTML = getImgTemplate(currentIndex);
@@ -59,7 +58,7 @@ function render() {
 }
 
 function nextImg() {
-    if (currentIndex === myImg.length - 1) {
+    if (currentIndex === myImg.length - 1) {d
         currentIndex = 0;
     }
     else {
