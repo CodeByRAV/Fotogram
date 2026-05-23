@@ -1,4 +1,4 @@
-Fodoglm Gallery
+Fotogram
 
 Fodoglm is a JavaScript practice project that showcases an interactive image gallery. Clicking on thumbnails opens a dialog with larger images, featuring navigation buttons, a close button, and WCAG accessibility compliance.
 
